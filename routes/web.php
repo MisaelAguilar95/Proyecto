@@ -17,4 +17,6 @@ Route::get('/', function () {
 Route::get('/vista', function (){
     return view('vista');
 });
-
+Route::get('/vista2', function (){
+    return 'vista';
+});
