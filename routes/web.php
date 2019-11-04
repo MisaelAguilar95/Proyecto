@@ -14,9 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/vista', function (){
-    return view('vista');
-});
-Route::get('/vista2', function (){
-    return 'vista';
-});
+Route::get('/vista2', 'pagesController@vista' );
+Route::get('/vista', 'pagesController@index');
