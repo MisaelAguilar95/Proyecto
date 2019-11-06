@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 Route::get('/vista2', 'pagesController@vista' );
 Route::get('/vista', 'pagesController@index');
+Route::get('/table', 'pagesController@table');
+

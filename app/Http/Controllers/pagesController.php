@@ -15,4 +15,7 @@ class pagesController extends Controller
       $results = DB::select('select * from users where id = :id', ['id' => 1]);
         return ($results);
      }
+     public function table(){
+      return view('table');
+   }
 }
